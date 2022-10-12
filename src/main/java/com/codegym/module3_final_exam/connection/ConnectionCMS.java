@@ -8,7 +8,7 @@ public class ConnectionCMS {
     public static Connection getConnection() {
         String jdbcURL = "jdbc:mysql://localhost:3306/studentmanagement";
         String jdbcUsername = "root";
-        String jdbcPassword = "Linh@(041197)";
+        String jdbcPassword = "123456";
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
